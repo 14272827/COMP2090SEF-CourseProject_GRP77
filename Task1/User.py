@@ -1,9 +1,17 @@
+from abc import ABC, abstractmethod
 class User:
     users = {}
     def __init__(self, username="", password=""):
         self._username = username
         self._password = password
         self._books_records = []
+
+    def __bool__(self):
+        return bool(self._username)
+
+    @abstractmethod
+    def get_role(self):
+        pass
 
     def get_username(self):
         return self._username
@@ -18,11 +26,14 @@ class User:
         self._password = password
 
     def register_user(self, username, pw, role="user"):
+        # only able to register normal user account
+        if role == "admin":
+            return False
         if username in User.users:
             return False, "Username already exists, please try another one."
         else:
             User.users[username] = {
-                "role": role,
+                "role": "user",
                 "password": pw,
                 "books_data": []
             }
@@ -63,5 +74,15 @@ class User:
             return True, "Logout successful."
 
 class Admin(User):
-    def __init__(self,username,password):
+    def __init__(self,username = "",password = ""):
         super().__init__(username,password)
+
+    def get_role(self):
+        return "admin"
+
+class NormalUser(User):
+    def __init__(self, username="", password=""):
+        super().__init__(username, password)
+
+    def get_role(self):
+        return "user"
