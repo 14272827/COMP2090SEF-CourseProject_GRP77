@@ -12,11 +12,6 @@ class LoginGUI:
         self.create_users()
         self.setup()
 
-    # testing acc(admin)
-    def create_users(self):
-        admin = Admin()
-        admin.register_user("admin123", "654321", "admin")
-
     def setup(self):
         title = tk.Label(self.window, text="Library System", font=self.title_font)
         title.pack(pady=10)
