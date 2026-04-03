@@ -40,6 +40,9 @@ class User(ABC):
     
     def check_password(self, pw):
         return self._password == pw
+
+    def change_password(self, new_pw):
+        self._password = new_pw
     
     def change_username(self, new_username):
         User.remove_user(self.get_username())
