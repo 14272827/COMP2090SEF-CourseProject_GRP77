@@ -23,6 +23,7 @@ def show_choice_frame(parent):
     tk.Label(parent, text="Library Management System", font=("Arial", 20)).pack()
     tk.Button(parent, text="Register", command=lambda: register_window(), width = 20, height = 3, font=("Arial", 20)).pack()
     tk.Button(parent, text="Login", command=lambda: login_window(),  width = 20, height = 3, font=("Arial", 20)).pack()
+    tk.Button(parent, text="Search book", command = search_book,  width = 20, height = 3, font=("Arial", 20)).pack()
 
 def register_window():
     win = tk.Toplevel()
