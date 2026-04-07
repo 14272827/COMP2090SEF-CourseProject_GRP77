@@ -14,7 +14,7 @@
 ## <a name="overview">Overview</a>
 This project implements a **Max Heap** data structure and the **Heap Sort** algorithm through a **CLI-based Task Manager System** that manages tasks by priority. The Max Heap enables efficient retrieval of the highest-priority task, while Heap Sort demonstrates systematic task sorting by priority.
 
-## <a name="DataStructure">Data Structure: Heap</a>
+## <a name="datastructure">Data Structure: Heap</a>
 
 ### Description
 This Task Manager System uses a **Max Heap** to store and manage tasks efficiently.  
@@ -29,7 +29,7 @@ The heap ensures that the task with the **highest priority** (largest priority n
 | `_heapify_up()` | Sift a node up to maintain heap property | O(log n) |
 | `_heapify_down()` | Sift a node down after removal | O(log n) |
 
-## <a name="Algorithm">Algorithm: Heap sort</a>
+## <a name="algorithm">Algorithm: Heap sort</a>
 ### Description
 This Task Manager System uses **Heap Sort** to display all tasks in ascending order of priority (from lowest to highest) when the user selects the "Show All Tasks (Sorted)" option.
 
