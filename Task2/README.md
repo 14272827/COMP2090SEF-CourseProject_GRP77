@@ -5,8 +5,8 @@
 
 ## Contents
 - [Overview](#overview)
-- [Data Structure](#DataStructure)
-- [Algorithm](#Algorithm)
+- [Data Structure](#datastructure)
+- [Algorithm](#algorithm)
 - [Modules](#modules)
 - [Installation](#installation)
 - [User Guide](#userGuide)
