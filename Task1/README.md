@@ -3,12 +3,13 @@
 ![OOP](https://img.shields.io/badge/OOP-Implemented-blue)
 
 ## Contents
-- [Overview](#overview)
+- [System Overview](#overview)
 - [Core functions](#coreFunctions)
 - [User roles](#roles)
 - [Modules](#modules)
 - [Installation](#installation)
 - [User guide](#userGuide)
+- [Screenshots](#screenshots)
 
 ## <a name="overview">System Overview</a>
 It is a Tkinter-based Python application built with Object-Oriented Programming principles, serving as a comprehensive Library Management System.
