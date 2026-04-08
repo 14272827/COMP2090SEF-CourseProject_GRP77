@@ -80,8 +80,7 @@ python main.py
 2. You will see the main menu with three options: **Register**, **Login**, **Search Book**
 
 > **Note:** The **Search Book** function is always available — you can use it before or after login.
-| Interface | Screenshot |
-|-----------|------------|
+---
 | Main Menu | ![Main Menu](screenshots/newmain_menu.png) |
 ---
 
