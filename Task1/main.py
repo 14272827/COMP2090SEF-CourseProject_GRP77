@@ -305,19 +305,19 @@ def menu_window():
     window.geometry("600x600")
     window.title("Menu")
     # display welcome message
-    tk.Label(window, text="Welcome " + lib.current_user.get_username(), width=25, height=2, font=("Arial", 20)).pack()
+    tk.Label(window, text="Welcome " + lib.current_user.get_username(), width=25, height=2, font=("Arial", 16)).pack()
     # Normal User function buttons
-    tk.Button(window, text="Search book", command = search_book, width = 20, height = 3, font=("Arial", 20)).pack()
-    tk.Button(window, text="Borrow a book", command = borrow_book, width = 20, height = 3, font=("Arial", 20)).pack()
-    tk.Button(window, text="Return book", command = return_book, width = 20, height = 3, font=("Arial", 20)).pack()
-    tk.Button(window, text="Change password", command = change_own_pw, width = 20, height = 3, font=("Arial", 20)).pack()
+    tk.Button(window, text="Search book", command=search_book, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
+    tk.Button(window, text="Borrow a book", command=borrow_book, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
+    tk.Button(window, text="Return book", command=return_book, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
+    tk.Button(window, text="Change password", command=change_own_pw, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
     # check if the user has permissions, allow additional functions buttons for admin
     if lib.current_user.has_permission():
-        tk.Button(window, text="Change another user's password", command = change_password_admin, width = 20, height = 3, font=("Arial", 15)).pack()
-        tk.Button(window, text="Change any user's username", command = change_username_admin, width = 20, height = 3, font=("Arial", 15)).pack()
-        tk.Button(window, text="View any user's borrow records", command = view_any_records, width = 20, height = 3, font=("Arial", 15)).pack()
+        tk.Button(window, text="Change another user's password", command=change_password_admin, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
+        tk.Button(window, text="Change any user's username", command=change_username_admin, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
+        tk.Button(window, text="View any user's borrow records", command=view_any_records, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
     # logout button
-    tk.Button(window, text = "Logout", command = logout, width = 20, height = 3, font=("Arial", 20)).pack()
+    tk.Button(window, text = "Logout", command = logout, width = 20, height = 2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
 
 if __name__ == "__main__":
     root = create_window()
