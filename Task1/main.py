@@ -313,8 +313,9 @@ def menu_window():
     tk.Button(window, text="Change password", command = change_own_pw, width = 20, height = 3, font=("Arial", 20)).pack()
     # check if the user has permissions, allow additional functions buttons for admin
     if lib.current_user.has_permission():
-        tk.Button(window, text="Change another user's password", command = change_password_admin, width = 20, height = 3, font=("Arial", 20)).pack()
-        tk.Button(window, text="View any user's borrow records", command = view_any_records, width = 20, height = 3, font=("Arial", 20)).pack()
+        tk.Button(window, text="Change another user's password", command = change_password_admin, width = 20, height = 3, font=("Arial", 15)).pack()
+        tk.Button(window, text="Change any user's username", command = view_any_records, width = 20, height = 3, font=("Arial", 15)).pack()
+        tk.Button(window, text="View any user's borrow records", command = change_username_admin, width = 20, height = 3, font=("Arial", 15)).pack()
     # logout button
     tk.Button(window, text = "Logout", command = logout, width = 20, height = 3, font=("Arial", 20)).pack()
 
