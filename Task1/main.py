@@ -219,7 +219,7 @@ def change_password_admin():
 # change other users' username(for admin)
 def change_username_admin():
     # ask for username who want to change their username
-    old_username = simpledialog.askstring("Change Username", "Enter current username:")
+    old_username = simpledialog.askstring("Change Username", "Enter target username:")
     if not old_username:
         return
 
