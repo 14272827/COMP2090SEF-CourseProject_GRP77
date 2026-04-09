@@ -3,9 +3,9 @@
 #Each book object is a unique physical copy
 
 class Book:
-    #class variable : list of all the books
+    #class attribute : list of all the books
     book_catalog = []
-    #class variable: the current book id for a new book (auto-increment)
+    #class attribute : the current book id for a new book (auto-increment)
     current_id = 1
 
     #object attributes : each book's own title, author , ISBN, availability, borrow status, due date and unique id
