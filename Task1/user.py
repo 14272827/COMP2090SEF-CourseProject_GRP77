@@ -1,8 +1,8 @@
 #User.py
-#This modules defines the User abstract parent class and it's child classes NormalUser and Admin
+#This modules defines the User parent class and it's child classes NormalUser and Admin
 #It manages the user dictionary
 
-#import the abc module for creating abstract class
+#import the abc module for abstraction
 from abc import ABC, abstractmethod
 
 class User(ABC):
