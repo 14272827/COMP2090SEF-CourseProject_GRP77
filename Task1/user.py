@@ -6,7 +6,7 @@
 from abc import ABC, abstractmethod
 
 class User(ABC):
-    #class variable : user dictionary with username as key and user object as value
+    #class attribute : user dictionary with username as key and user object as value
     users = {}
     
     #object attributes : each user's username, password and list of book id of books borrowed
