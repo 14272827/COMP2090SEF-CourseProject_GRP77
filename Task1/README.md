@@ -81,7 +81,7 @@ python main.py
 
 > **Note:** The **Search Book** function is always available — you can use it before or after login.
 ---
-<img src="screenshots/maini_menu.png" alt="Main Menu" width="600">
+<img src="screenshots/main_menu.png" alt="Main Menu" width="600">
 ---
 
 ### 1. Registration
