@@ -81,7 +81,9 @@ python main.py
 
 > **Note:** The **Search Book** function is always available — you can use it before or after login.
 ---
-| Main Menu | <img src="screenshots/main_menu.png" alt="Main Menu" width="600">|
+| Main Menu | 
+
+<img src="screenshots/main_menu.png" alt="Main Menu" width="600">
 ---
 
 ### 1. Registration
@@ -157,7 +159,7 @@ After logging in as an admin, two additional buttons will appear:
 
 | Interface | Screenshot |
 |-----------|------------|
-| Main Menu | <img src="screenshots/main_menu.png" alt="Main Menu" width="600">|
+| Main Menu | ![Main Menu](screenshots/main_menu.png) |
 | Registration | ![Registration](screenshots/register.png) |
 | Normal User Menu | ![Normal User Menu](screenshots/normal_user_menu.png) |
 | Admin Menu | ![Admin Menu](screenshots/admin_menu.png) |
