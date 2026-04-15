@@ -5,6 +5,7 @@
 
 ## Contents
 - [Overview](#overview)
+- [Introduction Video](#video)
 - [Data Structure](#datastructure)
 - [Algorithm](#algorithm)
 - [Modules](#modules)
@@ -13,6 +14,9 @@
 
 ## <a name="overview">Overview</a>
 This project implements a **Max Heap** data structure and the **Heap Sort** algorithm through a **CLI-based Task Manager System** that manages tasks by priority. The Max Heap enables efficient retrieval of the highest-priority task, while Heap Sort demonstrates systematic task sorting by priority.
+
+## <a name="video">Introduction Video</a>
+[5 minutes introduction video](https://youtu.be/_x6ZVoQMxtw)
 
 ## <a name="datastructure">Data Structure: Heap</a>
 
