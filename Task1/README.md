@@ -143,7 +143,13 @@ After logging in as an admin, two additional buttons will appear:
 3. Enter that user's current password
 4. Enter the new password
 
-#### 8. View Any User's Borrow Records
+#### 8. Change any user's username
+
+1. Click **Change any user's username**
+2. Enter the username of the target user account you want to change
+3. Enter the new username
+
+#### 9. View Any User's Borrow Records
 
 1. Click **View any user's borrow records**
 2. Enter the username of the account you want to check
