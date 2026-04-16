@@ -310,6 +310,7 @@ def menu_window():
     tk.Button(window, text="Search book", command=search_book, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
     tk.Button(window, text="Borrow a book", command=borrow_book, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
     tk.Button(window, text="Return book", command=return_book, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
+    tk.Button(window, text="View borrow records", command=view_borrow_records, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
     tk.Button(window, text="Change password", command=change_own_pw, height=2, font=("Arial", 25)).pack(fill=tk.X, padx=20, pady=5)
     # check if the user has permissions, allow additional functions buttons for admin
     if lib.current_user.has_permission():
