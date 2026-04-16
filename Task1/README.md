@@ -134,7 +134,7 @@ python main.py
 
 ### Main Menu: Admin
 
-After logging in as an admin, two additional buttons will appear:
+After logging in as an admin, three additional buttons will appear:
 
 #### 7. Change Another User's Password
 
