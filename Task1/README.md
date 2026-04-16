@@ -15,6 +15,9 @@
 ## <a name="overview">System Overview</a>
 It is a Tkinter-based Python application built with Object-Oriented Programming principles, serving as a comprehensive Library Management System.
 
+## <a name="video">Introduction Video</a>
+[5 minutes introduction video]https://youtu.be/jsykKzLeUE8
+
 ## <a name="coreFunctions">Core Functions</a>
 **User Management**
 - Account registration
