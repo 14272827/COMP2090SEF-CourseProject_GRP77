@@ -143,7 +143,7 @@ After logging in as an admin, two additional buttons will appear:
 3. Enter that user's current password
 4. Enter the new password
 
-#### 8. Change any user's username
+#### 8. Change Any User's Username
 
 1. Click **Change any user's username**
 2. Enter the username of the target user account you want to change
