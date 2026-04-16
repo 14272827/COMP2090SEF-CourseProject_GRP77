@@ -4,6 +4,7 @@
 
 ## Contents
 - [System Overview](#overview)
+- [Introduction Video](#video)
 - [Core functions](#coreFunctions)
 - [User roles](#roles)
 - [Modules](#modules)
